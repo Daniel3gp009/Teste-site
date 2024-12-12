@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 720px;
+    margin: 0 auto;
+}
+
+#cabecalho {
+    background: gray;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+#conteudo {
+    width: 520px;
+    float: right;
+}
+
+#nav {
+    background: #d3d3d3;
+    width: 180px;
+    float: left;
+}
+
+#rodape {
+    background: gray;
+    clear: both;
+    text-align: center;
+}
+
+.conteudo-principal {
+    width: 290px;
+    float: left;
+
+}
+
+.conteudo-secundario {
+    background: #d3d3d3;
+    width: 220px;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    text-indent: 20px;
+    padding: 10px;
+}
+
+ul a {
+    text-decoration: none;
+}
+
